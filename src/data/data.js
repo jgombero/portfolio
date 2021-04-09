@@ -82,3 +82,11 @@ export const projectsData = [
     repo: "",
   },
 ]
+
+//  CONTACT DATA
+export const contactData = {
+  cta: "",
+  btn: "",
+  email: "joshuagomberoff@gmail.com"
+}
+
