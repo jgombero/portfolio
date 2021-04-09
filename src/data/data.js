@@ -13,3 +13,12 @@ export const headerData = {
   cta: "",
 }
 
+// ABOUT DATA
+export const aboutData = {
+  img: "",
+  paragraphOne: "",
+  paragraphTwo: "",
+  paragraphThree: "",
+  resume: "",
+}
+
