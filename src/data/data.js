@@ -1,3 +1,5 @@
+import { nanoid } from "nanoid";
+
 // HEAD DATA
 export const headData = {
   title: "Joshua Gomberoff | Developer",
@@ -22,3 +24,61 @@ export const aboutData = {
   resume: "",
 }
 
+// PROJECTS DATA
+export const projectsData = [
+  {
+    id: nanoid(),
+    img: "",
+    title: "",
+    info: "",
+    info2: "",
+    infor3: "",
+    infor4: "",
+    url: "",
+    repo: "",
+  },
+  {
+    id: nanoid(),
+    img: "",
+    title: "",
+    info: "",
+    info2: "",
+    infor3: "",
+    infor4: "",
+    url: "",
+    repo: "",
+  },
+  {
+    id: nanoid(),
+    img: "",
+    title: "",
+    info: "",
+    info2: "",
+    infor3: "",
+    infor4: "",
+    url: "",
+    repo: "",
+  },
+  {
+    id: nanoid(),
+    img: "",
+    title: "",
+    info: "",
+    info2: "",
+    infor3: "",
+    infor4: "",
+    url: "",
+    repo: "",
+  },
+  {
+    id: nanoid(),
+    img: "",
+    title: "",
+    info: "",
+    info2: "",
+    infor3: "",
+    infor4: "",
+    url: "",
+    repo: "",
+  },
+]
