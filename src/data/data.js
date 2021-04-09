@@ -87,6 +87,21 @@ export const projectsData = [
 export const contactData = {
   cta: "",
   btn: "",
-  email: "joshuagomberoff@gmail.com"
+  email: "joshuagomberoff@gmail.com",
 }
 
+// FOOTER DATA
+export const footerData = {
+  networks: [
+    {
+      id: nanoid(),
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/joshua-gomberoff/",
+    },
+    {
+      id: nanoid(),
+      name: "GitHub",
+      url: "https://github.com/jgombero",
+    },
+  ]
+}
