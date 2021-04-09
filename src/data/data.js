@@ -5,3 +5,11 @@ export const headData = {
   description: "",
 }
 
+// HEADER DATA
+export const headerData = {
+  title: "",
+  name: "Joshua Gomberoff",
+  subtitle: "",
+  cta: "",
+}
+
