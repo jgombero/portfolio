@@ -1,6 +1,7 @@
 import  React from "react";
 import { Helmet } from "react-helmet";
-import { headData } from "../mock/data";
+import { headData } from "../data/data";
+import App from "../components/App";
 
 const IndexPage = () => {
   const { title, lang, description } = headData;
@@ -12,6 +13,7 @@ const IndexPage = () => {
         <html lang={lang} />
         <meta name="description" content={description || "Gatsby Portfolio"} />
       </Helmet>
+      <App />
     </>
   )
 }
