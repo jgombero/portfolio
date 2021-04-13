@@ -4,6 +4,7 @@ import { heroData, aboutData, projectsData, contactData, footerData } from "../d
 import Hero from "./Hero/Hero";
 import About from "./About/About";
 import Projects from "./Projects/Projects";
+import Contact from "./Contact/Contact";
 
 const App = () => {
   const [hero, setHero] = useState({});
@@ -26,6 +27,7 @@ const App = () => {
       <Hero />
       <About />
       <Projects />
+      <Contact />
     </PortfolioProvider>
   );
 }
