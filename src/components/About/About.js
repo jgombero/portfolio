@@ -5,7 +5,7 @@ const About = () => {
   const { about } = useContext(PortfolioContext);
   const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
 
-  const [isDesktop, setIsDesktop]  = useState(false);
+  const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -23,6 +23,6 @@ const About = () => {
       <h1>This is the "About" Section.</h1>
     </section>
   );
-}
+};
 
 export default About;

@@ -10,6 +10,6 @@ const Contact = () => {
       <h1>This is the "Contact" Section</h1>
     </section>
   );
-}
+};
 
 export default Contact;

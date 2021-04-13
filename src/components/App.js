@@ -14,17 +14,17 @@ const App = () => {
   const [projects, setProjects] = useState([]);
   const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
-  
+
   useEffect(() => {
-    setHero({...heroData});
-    setAbout({...aboutData});
+    setHero({ ...heroData });
+    setAbout({ ...aboutData });
     setProjects([...projectsData]);
-    setContact({...contactData});
-    setFooter({...footerData});
+    setContact({ ...contactData });
+    setFooter({ ...footerData });
   }, []);
 
-  return(
-    <PortfolioProvider value={{ hero, about, projects, contact, footer}}>
+  return (
+    <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
       <h1>This is my App.</h1>
       <Hero />
       <About />
@@ -33,6 +33,6 @@ const App = () => {
       <Footer />
     </PortfolioProvider>
   );
-}
+};
 
 export default App;
