@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { PortfolioProvider } from "../context/context";
-import { heroData, aboutData, projectsData, contactData, footerData } from "../data/mocks";
-import Hero from "./Hero";
+import { heroData, aboutData, projectsData, contactData, footerData } from "../data/data";
+import Hero from "./Hero/Hero";
 
 const App = () => {
   const [hero, setHero] = useState({});
