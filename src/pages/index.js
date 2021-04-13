@@ -3,6 +3,8 @@ import { Helmet } from "react-helmet";
 import { headData } from "../data/data";
 import App from "../components/App";
 
+import '../style/main.scss';
+
 const IndexPage = () => {
   const { title, lang, description } = headData;
   return (
