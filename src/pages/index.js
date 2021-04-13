@@ -1,9 +1,9 @@
-import  React from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
 import { headData } from "../data/data";
 import App from "../components/App";
 
-import '../style/main.scss';
+import "../styles/main.scss";
 
 const IndexPage = () => {
   const { title, lang, description } = headData;
@@ -17,7 +17,7 @@ const IndexPage = () => {
       </Helmet>
       <App />
     </>
-  )
-}
+  );
+};
 
 export default IndexPage;
