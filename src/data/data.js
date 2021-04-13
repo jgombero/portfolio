@@ -5,15 +5,15 @@ export const headData = {
   title: "Joshua Gomberoff | Developer",
   lang: "en",
   description: "",
-}
+};
 
 // HEADER DATA
-export const headerData = {
+export const heroData = {
   title: "",
   name: "Joshua Gomberoff",
   subtitle: "",
   cta: "",
-}
+};
 
 // ABOUT DATA
 export const aboutData = {
@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo: "",
   paragraphThree: "",
   resume: "",
-}
+};
 
 // PROJECTS DATA
 export const projectsData = [
@@ -81,14 +81,14 @@ export const projectsData = [
     url: "",
     repo: "",
   },
-]
+];
 
 //  CONTACT DATA
 export const contactData = {
   cta: "",
   btn: "",
   email: "joshuagomberoff@gmail.com",
-}
+};
 
 // FOOTER DATA
 export const footerData = {
@@ -103,5 +103,5 @@ export const footerData = {
       name: "GitHub",
       url: "https://github.com/jgombero",
     },
-  ]
-}
+  ],
+};
