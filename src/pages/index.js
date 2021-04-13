@@ -11,7 +11,7 @@ const IndexPage = () => {
         <meta charSet="utf-8" />
         <title>{title}</title>
         <html lang={lang} />
-        <meta name="description" content={description || "Gatsby Portfolio"} />
+        <meta name="description" content={description || "Joshua Gomberoff Portfolio"} />
       </Helmet>
       <App />
     </>
