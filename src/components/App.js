@@ -3,6 +3,7 @@ import { PortfolioProvider } from "../context/context";
 import { heroData, aboutData, projectsData, contactData, footerData } from "../data/data";
 import Hero from "./Hero/Hero";
 import About from "./About/About";
+import Projects from "./Projects/Projects";
 
 const App = () => {
   const [hero, setHero] = useState({});
@@ -24,6 +25,7 @@ const App = () => {
       <h1>This is my App.</h1>
       <Hero />
       <About />
+      <Projects />
     </PortfolioProvider>
   );
 }
