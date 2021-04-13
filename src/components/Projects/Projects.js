@@ -7,7 +7,7 @@ const { projects } = useContext(PortfolioContext);
 const [isDesktop, setIsDesktop] = useState(false);
 const [isMobile, setIsMobile] = useState(false);
 
-seEffect(() => {
+useEffect(() => {
   if (window.innerWidth > 769) {
     setIsDesktop(true);
     setIsMobile(false);
