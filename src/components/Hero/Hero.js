@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <section id="hero">
-      <h1>This is the Header</h1>
+      <h1>This is the Header.</h1>
     </section>
   );
 }
