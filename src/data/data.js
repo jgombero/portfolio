@@ -11,8 +11,8 @@ export const headData = {
 export const heroData = {
   title: "",
   name: "Joshua Gomberoff",
-  subtitle: "",
-  cta: "",
+  subtitle: "Web Developer and Classical Violist",
+  cta: "Find out more!",
 };
 
 // ABOUT DATA
