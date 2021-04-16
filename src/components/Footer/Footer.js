@@ -3,7 +3,7 @@ import PortfolioContext from "../../context/context";
 
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
-  const { network } = footer;
+  const { networks } = footer;
 
   return (
     <footer className="footer">
