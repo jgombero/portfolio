@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
+import { Container } from "react-bootstrap";
 import PortfolioContext from "../../context/context";
 
 const Header = () => {
@@ -20,7 +21,9 @@ const Header = () => {
 
   return (
     <section id="hero">
-      <h1>This is the Header.</h1>
+      <Container>
+        <h1>This is the Header.</h1>
+      </Container>
     </section>
   );
 };
