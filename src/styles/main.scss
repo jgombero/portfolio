@@ -1,20 +1,20 @@
 // Abstract Imports
-@import './abstracts/mixins';
-@import './abstracts/variables';
-@import './abstracts/helpers';
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+@import "./abstracts/helpers";
 
 // Base Imports
-@import './base/containers';
-@import './base/typography';
+@import "./base/containers";
+@import "./base/typography";
 
 // Component Imports
 
 // Layout Imports
-@import './layout/hero';
+@import "./layout/hero";
 
 // Section Imports
-@import './sections/navbar';
-@import './sections/hero';
+@import "./sections/navbar";
+@import "./sections/hero";
 
 // Vendor Imports
-@import './vendor/css/font-awesome.min.css';
+@import "./vendor/css/font-awesome.min.css";
