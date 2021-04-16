@@ -95,12 +95,12 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: "LinkedIn",
+      name: "linkedin",
       url: "https://www.linkedin.com/in/joshua-gomberoff/",
     },
     {
       id: nanoid(),
-      name: "GitHub",
+      name: "github",
       url: "https://github.com/jgombero",
     },
   ],
