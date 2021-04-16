@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { headData } from "../data/data";
 import App from "../components/App";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/main.scss";
 
 const IndexPage = () => {
