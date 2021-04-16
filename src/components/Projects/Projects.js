@@ -20,6 +20,12 @@ const Projects = () => {
   return (
     <section id="projects">
       <h1>This is the "Projects" Section.</h1>
+      <p>
+        Et est duis amet sit pariatur ad veniam. Eiusmod veniam culpa id minim deserunt dolor anim
+        in in esse proident. Consectetur incididunt incididunt fugiat dolor incididunt adipisicing
+        sint. Adipisicing elit est exercitation minim Lorem amet exercitation. Ullamco do amet
+        adipisicing aute.
+      </p>
     </section>
   );
 };
