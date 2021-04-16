@@ -5,11 +5,16 @@
 
 // Base Imports
 @import './base/containers';
+@import './base/typography';
 
 // Component Imports
 
 // Layout Imports
+@import './layout/hero';
 
 // Section Imports
 @import './sections/navbar';
 @import './sections/hero';
+
+// Vendor Imports
+@import './vendor/css/font-awesome.min.css';
