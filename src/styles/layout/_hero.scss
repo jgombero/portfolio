@@ -1,0 +1,19 @@
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+    width: 4rem;
+    height: 2rem;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}
