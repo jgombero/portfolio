@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -17,17 +17,27 @@ const Navbar = () => {
   }, []);
 
   return (
-    <section id="navbar" className="navbar">
+    <section id="navbar">
       <Container>
-        <Link to="about" smooth={true} duration={1000}>
-          About
-        </Link>
-        <Link to="projects" smooth={true} duration={1000}>
-          Projects
-        </Link>
-        <Link to="contact" smooth={true} duration={1000}>
-          Contact
-        </Link>
+        <div className="navbar-wrapper">
+          <Row>
+            <Col>
+              <Link to="about" smooth={true} duration={1000}>
+                About
+              </Link>
+            </Col>
+            <Col>
+              <Link to="projects" smooth={true} duration={1000}>
+                Projects
+              </Link>
+            </Col>
+            <Col>
+              <Link to="contact" smooth={true} duration={1000}>
+                Contact
+              </Link>
+            </Col>
+          </Row>
+        </div>
       </Container>
     </section>
   );
