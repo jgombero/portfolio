@@ -33,7 +33,6 @@ const Header = () => {
         <div className="social-links">
           {networks &&
             networks.map((network) => {
-              console.log(network);
               const { id, name, url } = network;
               return (
                 <a key={id} href={url} rel="noopener noreferrer" target="_blank" aria-label={name}>
