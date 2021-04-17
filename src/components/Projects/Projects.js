@@ -27,7 +27,7 @@ const Projects = () => {
             const { title, info, info2, info3, info4, url, repo, img, id } = project;
 
             return (
-              <Row key={id}>
+              <Row key={id} className="project-wrapper__row">
                 <Col lg={4} sm={12}>
                   <div className="projects-wrapper__text">
                     <h3 className="project-wrapper__text-title">{title || "Project Title"}</h3>
