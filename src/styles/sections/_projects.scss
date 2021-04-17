@@ -1,0 +1,14 @@
+#projects {
+  .projects-wrapper {
+    .project-wrapper__row {
+      display: flex;
+    }
+    .project-wrapper__row:nth-child(even) {
+      flex-direction: row;
+    }
+
+    .project-wrapper__row:nth-child(odd) {
+      flex-direction: row-reverse;
+    }
+  }
+}
